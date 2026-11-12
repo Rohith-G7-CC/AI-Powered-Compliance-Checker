@@ -107,10 +107,10 @@ Outputs + Notifications + Audit Logs
 ## 🧠 LLM Strategy
 
 ### Primary Model
-- Groq – llama-3.3-70b-versatile
+- OpenRouter
 
 ### Fallbacks
-- OpenRouter (LLaMA 3.1 8B)
+- Groq
 - Hard fallback JSON (never crashes)
 
 ---
@@ -119,7 +119,7 @@ Outputs + Notifications + Audit Logs
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/springboardmentor587-star/Compliance-Checker.git
+git clone https://github.com/Rohith-G7-CC/AI-Powered-Compliance-Checker-.git
 cd Compliance-Checker
 ````
 
@@ -148,13 +148,17 @@ OPENROUTER_API_KEY=your_openrouter_key
 # Email
 SENDER_EMAIL=your_email@gmail.com
 EMAIL_APP_PASSWORD=your_app_password
+RECEIVER_EMAIL=your_email@gmail.com
 
 # Slack
 SLACK_WEBHOOK_URL=your_slack_webhook
 
 # Directories
 RAW_DIR=./data/raw
-OUTPUT_DIR=./data/processed
+PROCESSED_DIR=${DATA_DIR}/processed
+ANNOTATIONS_DIR=./annotations
+
+OUTPUT_DIR=${DATA_DIR}/processed
 
 # Chunking
 MAX_CHUNK_TOKENS=1500
@@ -232,8 +236,6 @@ This project is licensed under the **MIT License**.
 
 
 ## 👥 Contributors
-
-- **Charan** – Project Lead & Mentor
 
 - **Rohith Vunna** – Student Developer
   
