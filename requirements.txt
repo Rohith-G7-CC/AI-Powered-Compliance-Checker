@@ -1,0 +1,31 @@
+# Core Environment
+python-dotenv
+
+# Groq LLM API
+groq
+requests
+openai
+
+# PDF Extraction
+pdfplumber
+reportlab
+
+bs4
+
+streamlit
+gspread
+oauth2client
+
+# Text Processing
+regex
+tqdm
+
+# Data Handling
+pandas
+
+# JSON / Serialization Helpers
+orjson
+
+feedparser
+
+
