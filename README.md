@@ -119,7 +119,7 @@ Outputs + Notifications + Audit Logs
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/Rohith-G7-CC/AI-Powered-Compliance-Checker-.git
+git clone https://github.com/Rohith-G7-CC/AI-Powered-Compliance-Checker.git
 cd Compliance-Checker
 ````
 
